@@ -1,0 +1,104 @@
+/* for 800px or less */
+@media screen and (max-width: 800px){
+    .container-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .slogan{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    .slogan>h4{
+        margin-bottom: 24px;
+    }
+    .section{
+        height: auto;
+    }
+    .section-banner{
+        padding-top: 80px;
+    }
+    .section-container{
+        padding: 24px 32px 64px 32px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .section-text{
+        margi
+        n-bottom: 64px;
+    }
+    .section-text p{
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+    .secition-reverse{
+        flex-direction: column-reverse;
+    }
+    
+    
+
+    .download-card p{
+        padding: 0;
+    }
+
+    .slogan .donwload-button{
+        width: 200px;
+        margin-top: 40px;
+        margin-right: 0;
+    }
+
+    .container-banner>img{
+        width: 320px;
+    }
+
+    .section-container img{
+        width: 310px; 
+        /* height: auto;
+        max-width: fit-content; 
+        display: block; */
+    }   
+    .section-last .donwload-button{
+        width: 200px;
+        margin-top: 32px;
+        margin-left: 0px;
+    }
+
+
+    .footer-container{
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .download-card,.download-card div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .donwload-card{
+        padding: 0;
+    }
+    .download-card p{
+        padding: 0;
+    }
+    .section-last .donwload-button{
+        width: 200px;
+        margin-top: 32px;
+        margin-left: 0px;
+    }
+    .section-last>div {
+        padding: 0 10%;
+        max-width: 440px;
+        margin: 0 auto;
+    }
+    .donwload-card{
+        padding: 0;
+    }
+}
